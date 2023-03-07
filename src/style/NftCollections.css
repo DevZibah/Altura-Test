@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+/* Variables */
+:root {
+  /* neutral */
+  --DarkText: hsl(199, 35%, 19%);
+  --Text: hsl(198, 23%, 72%);
+  --faintText: hsl(198, 15%, 45%);
+
+  /* Background */
+  --RadialGradient: hsl(235, 68%, 10%);
+  --CardBackground: hsl(235, 46%, 15%);
+  --box-shadow-color: 0px 7px 0px hsl(204, 32%, 9%);
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+body {
+  border: 1px solid red; 
+  color: var(--Text);
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: var(--RadialGradient);
+  font-family: 'Outfit', sans-serif;
+}
+.Headingtext{
+  color: var(--Text);
+}
+.collection{
+  border: 1px solid red;
+  margin-top: -2rem;
+  background-color: var(--CardBackground);
+}
+.collection img{
+  width: 100%;
+  padding: 5px;
+}
