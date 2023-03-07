@@ -33,7 +33,13 @@
   border: 1px solid var(--RadialGradient);
   background-color: var(--RadialGradient);
   border-radius: 8px;
-  color: var(--Text);
   width: 50%;
   margin: 0 auto;
+}
+.nftlink {
+  color: var(--Text);
+  text-decoration: none;
+}
+.closeicon {
+  font-size: 25px;
 }
