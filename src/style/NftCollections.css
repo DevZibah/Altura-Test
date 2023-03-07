@@ -9,7 +9,7 @@
   /* Background */
   --RadialGradient: hsl(235, 68%, 10%);
   --CardBackground: hsl(235, 46%, 15%);
-  --box-shadow-color: 0px 7px 0px hsl(204, 32%, 9%);
+  --box-shadow-color: 0px 7px 0px hsl(198, 15%, 45%);
 }
 
 *,
@@ -21,7 +21,7 @@
   box-sizing: border-box;
 }
 body {
-  border: 1px solid red; 
+  border: 1px solid var(--RadialGradient);
   color: var(--Text);
   width: 100%;
   max-width: 1440px;
@@ -29,15 +29,17 @@ body {
   background-color: var(--RadialGradient);
   font-family: 'Outfit', sans-serif;
 }
-.Headingtext{
+.Headingtext {
   color: var(--Text);
 }
-.collection{
-  border: 1px solid red;
+.collection {
+  border: 1px solid var(--CardBackground);
   margin-top: -2rem;
   background-color: var(--CardBackground);
+  border-radius: 8px;
+  /* box-shadow: var(--box-shadow-color); */
 }
-.collection img{
+.collection img {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
 }

@@ -4,39 +4,49 @@ const data = [
     image:
       'https://res.cloudinary.com/sohmmie/image/upload/v1678217285/NFT1_vejmlu.avif',
     heading: 'Photosnap',
-    description: 'Photosnap',
+    text: 'lorem ipsum lorem ipsum',
+    description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+    address: '1eRvx7rsh64RE74VGjn%DYR32cSD',
     price: '95 ETH',
   },
   {
     id: 2,
     image:
       'https://res.cloudinary.com/sohmmie/image/upload/v1678217285/NFT2_degfm2.jpg',
-    heading: 'Photosnap',
-    description: 'Photosnap',
+    heading: 'Machalla art',
+    text: 'lorem ipsum lorem ipsum',
+    description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+    address: '8hTdsx7rsh64RE74VGjn%DYR32cSD',
     price: '50 ETH',
   },
   {
     id: 3,
     image:
       'https://res.cloudinary.com/sohmmie/image/upload/v1678217284/NFT3_gmodwz.jpg',
-    heading: 'Photosnap',
-    description: 'Photosnap',
+    heading: 'Slow dine',
+    text: 'lorem ipsum lorem ipsum',
+    description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+    address: '00Fr5ex7rsh64RE74VGjn%DYR32cSD',
     price: '67 ETH',
   },
   {
     id: 4,
     image:
       'https://res.cloudinary.com/sohmmie/image/upload/v1678217285/NFT4_b8rxqh.png',
-    heading: 'Photosnap',
-    description: 'Photosnap',
+    heading: 'Machalla art',
+    text: 'lorem ipsum lorem ipsum',
+    description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+    address: '2W1Af7rsh64RE74VGjn%DYR32cSD',
     price: '37 ETH',
   },
   {
     id: 5,
     image:
       'https://res.cloudinary.com/sohmmie/image/upload/v1678217285/NFT5_cvvhag.png',
-    heading: 'Photosnap',
-    description: 'Photosnap',
+    heading: 'Slow dine',
+    text: 'lorem ipsum lorem ipsum',
+    description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+    address: '5Rf4rsh64RE74VGjn%DYR32cSD',
     price: '17 ETH',
   },
   {
@@ -44,7 +54,9 @@ const data = [
     image:
       'https://res.cloudinary.com/sohmmie/image/upload/v1678217285/NFT6_voaac9.webp',
     heading: 'Photosnap',
-    description: 'Photosnap',
+    text: 'lorem ipsum lorem ipsum',
+    description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
+    address: '9Ix7rsh64RE76F4Dv^jn%DYR32cSD',
     price: '97 ETH',
   },
 ]
