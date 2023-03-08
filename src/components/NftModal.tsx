@@ -15,14 +15,33 @@ const NftModal = (props) => {
         data-aos-easing='ease-in-sine'
         data-aos-duration='600'
       >
-        <CgCloseO className='closeicon' onClick={props.onClose} />
-        <img src={props.nft.image} alt='' />
-        <h4 className='mt-3'>{props.nft.heading}</h4>
-        <small>{props.nft.description}</small>
-        <small>{props.nft.address}</small>
-        <button className='text-uppercase mt-2 mb-3 nftbutton p-1'>
-          <Link className='nftlink' to='https://opensea.io/'>buy nft</Link>
-        </button>
+        <CgCloseO className='closeicon mb-md-3' onClick={props.onClose} />
+        <section className='sec-two'>
+          <article>
+            <img
+              src={props.nft.image}
+              alt=''
+              style={{
+                width: props.nft.heading === 'Ice Dits' ? '170%' : '90%',
+              }}
+            />
+          </article>
+          <article
+            className='art-two'
+            style={{
+              marginLeft: props.nft.heading === 'Ice Dits' ? '4rem' : '',
+            }}
+          >
+            <h4 className='mt-3'>{props.nft.heading}</h4>
+            <small>{props.nft.description}</small>
+            <small>{props.nft.address}</small>
+            <button className='text-uppercase mt-2 mb-3 nftbutton p-1'>
+              <Link className='nftlink' to='https://opensea.io/'>
+                buy nft
+              </Link>
+            </button>
+          </article>
+        </section>
       </div>
     </section>
   )

@@ -5,7 +5,7 @@ const NftCollection = ({ item, key }) => {
   const [show, setShow] = useState(false)
   const [nft, setNft] = useState(false)
   return (
-    <section className='p-5'>
+    <section className='p-5 sec-one p-md-4'>
       <div
         className='collection text-center'
         key={key}

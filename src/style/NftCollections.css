@@ -43,3 +43,21 @@ body {
   width: 100%;
   padding: 10px;
 }
+@media (min-width: 768px) {
+  .art-one {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .collection {
+    cursor: pointer;
+    transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+      0.3s box-shadow,
+      0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  }
+  .collection:hover {
+    transform: scale(1.05);
+  }
+}

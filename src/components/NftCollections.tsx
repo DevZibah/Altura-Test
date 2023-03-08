@@ -14,7 +14,7 @@ const NftCollections = () => {
           Lorem ipsum dolor sit amet consectetur.
         </p>
       </main>
-      <article>
+      <article className='art-one mt-md-5'>
         {data.map((item, key) => {
           return (
             <div>

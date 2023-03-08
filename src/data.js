@@ -3,7 +3,7 @@ const data = [
     id: 1,
     image:
       'https://res.cloudinary.com/sohmmie/image/upload/v1678217285/NFT1_vejmlu.avif',
-    heading: 'Photosnap',
+    heading: 'Ordit Pie',
     text: 'lorem ipsum lorem ipsum',
     description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
     address: '1eRvx7rsh64RE74VGjn%DYR32cSD',
@@ -13,7 +13,7 @@ const data = [
     id: 2,
     image:
       'https://res.cloudinary.com/sohmmie/image/upload/v1678217285/NFT2_degfm2.jpg',
-    heading: 'Machalla art',
+    heading: 'Norb Cook',
     text: 'lorem ipsum lorem ipsum',
     description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
     address: '8hTdsx7rsh64RE74VGjn%DYR32cSD',
@@ -23,7 +23,7 @@ const data = [
     id: 3,
     image:
       'https://res.cloudinary.com/sohmmie/image/upload/v1678217284/NFT3_gmodwz.jpg',
-    heading: 'Slow dine',
+    heading: 'Ice Dits',
     text: 'lorem ipsum lorem ipsum',
     description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
     address: '00Fr5ex7rsh64RE74VGjn%DYR32cSD',
@@ -33,7 +33,7 @@ const data = [
     id: 4,
     image:
       'https://res.cloudinary.com/sohmmie/image/upload/v1678217285/NFT4_b8rxqh.png',
-    heading: 'Machalla art',
+    heading: 'Mochella Art',
     text: 'lorem ipsum lorem ipsum',
     description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
     address: '2W1Af7rsh64RE74VGjn%DYR32cSD',
@@ -43,7 +43,7 @@ const data = [
     id: 5,
     image:
       'https://res.cloudinary.com/sohmmie/image/upload/v1678217285/NFT5_cvvhag.png',
-    heading: 'Slow dine',
+    heading: 'Smoke Hollow',
     text: 'lorem ipsum lorem ipsum',
     description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
     address: '5Rf4rsh64RE74VGjn%DYR32cSD',
@@ -53,7 +53,7 @@ const data = [
     id: 6,
     image:
       'https://res.cloudinary.com/sohmmie/image/upload/v1678217285/NFT6_voaac9.webp',
-    heading: 'Photosnap',
+    heading: 'Slick Ghost',
     text: 'lorem ipsum lorem ipsum',
     description: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
     address: '9Ix7rsh64RE76F4Dv^jn%DYR32cSD',

@@ -43,3 +43,25 @@
 .closeicon {
   font-size: 25px;
 }
+@media (min-width: 768px) {
+  .sec-two {
+    display: flex;
+  }
+  .modal-content {
+    text-align: start !important;
+  }
+  .modal-content img {
+    width: 90%;
+  }
+}
+@media (min-width: 1024px) {
+  .closeicon {
+    cursor: pointer;
+  }
+  .modal-content {
+    padding: 1rem !important;
+  }
+  .nftlink:hover {
+    font-weight: 700;
+  }
+}
