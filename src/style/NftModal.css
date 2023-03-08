@@ -43,6 +43,12 @@
 .closeicon {
   font-size: 25px;
 }
+.articlle1 {
+  display: none;
+}
+.art-three {
+  display: none;
+}
 @media (min-width: 768px) {
   .sec-two {
     display: flex;
@@ -52,6 +58,18 @@
   }
   .modal-content img {
     width: 90%;
+  }
+  .articlle {
+    display: none;
+  }
+  .articlle1 {
+    display: block;
+  }
+  .art-two {
+    display: none;
+  }
+  .art-three {
+    display: block;
   }
 }
 @media (min-width: 1024px) {
